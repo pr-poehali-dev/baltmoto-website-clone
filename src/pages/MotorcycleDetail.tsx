@@ -21,7 +21,7 @@ const MotorcycleDetail = () => {
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="relative h-96">
             <img
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop"
+              src="https://cdn.poehali.dev/files/f385c341-4e7e-47ae-b7a0-54b06b393ede.jpg"
               alt="Husqvarna SM 701"
               className="w-full h-full object-cover"
             />

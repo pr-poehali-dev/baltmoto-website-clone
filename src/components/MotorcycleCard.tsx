@@ -29,7 +29,7 @@ const MotorcycleCard = ({
       {/* Image */}
       <div className="relative h-48 overflow-hidden">
         <img
-          src={image}
+          src="https://cdn.poehali.dev/files/f385c341-4e7e-47ae-b7a0-54b06b393ede.jpg"
           alt={`${brand} ${model}`}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
         />
