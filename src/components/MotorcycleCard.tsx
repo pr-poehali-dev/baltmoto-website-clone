@@ -60,9 +60,7 @@ const MotorcycleCard = ({
         </div>
 
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-blue-900">
-            {price.toLocaleString()} ₽
-          </div>
+          <div className="text-2xl font-bold text-blue-900">454 800 ₽</div>
           <button
             onClick={() => navigate("/motorcycle/husqvarna-sm-701")}
             className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors"
