@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Icon from "@/components/ui/icon";
 
 interface MotorcycleCardProps {
@@ -22,6 +23,7 @@ const MotorcycleCard = ({
   image,
   location,
 }: MotorcycleCardProps) => {
+  const navigate = useNavigate();
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
       {/* Image */}
@@ -61,7 +63,10 @@ const MotorcycleCard = ({
           <div className="text-2xl font-bold text-blue-900">
             {price.toLocaleString()} ₽
           </div>
-          <button className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors">
+          <button
+            onClick={() => navigate("/motorcycle/husqvarna-sm-701")}
+            className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors"
+          >
             Подробнее
           </button>
         </div>
