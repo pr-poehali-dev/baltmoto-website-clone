@@ -139,7 +139,7 @@ const MotorcycleDetail = () => {
 
                 <div className="mt-8 p-6 bg-blue-50 rounded-lg">
                   <div className="text-3xl font-bold text-blue-900 mb-2">
-                    1 280 000 ₽
+                    454 800 ₽
                   </div>
                   <p className="text-blue-700 mb-4">
                     Цена может варьироваться у дилеров
