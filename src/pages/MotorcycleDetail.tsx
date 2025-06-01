@@ -144,9 +144,12 @@ const MotorcycleDetail = () => {
                   <p className="text-blue-700 mb-4">
                     Цена может варьироваться у дилеров
                   </p>
-                  <button className="w-full bg-orange-500 text-white py-3 px-6 rounded-md hover:bg-orange-600 transition-colors font-medium">
+                  <a
+                    href="tel:+79534271121"
+                    className="block w-full bg-orange-500 text-white py-3 px-6 rounded-md hover:bg-orange-600 transition-colors font-medium text-center"
+                  >
                     Связаться с дилером
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
