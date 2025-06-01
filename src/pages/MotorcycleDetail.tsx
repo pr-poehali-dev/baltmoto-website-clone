@@ -147,12 +147,10 @@ const MotorcycleDetail = () => {
                   </p>
                   <div className="flex gap-3">
                     <a
-                      href="https://dealer-motorcycles.ru"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="tel:+79534271121"
                       className="flex-1 bg-orange-500 text-white py-3 px-6 rounded-md hover:bg-orange-600 transition-colors font-medium text-center"
                     >
-                      Перейти на сайт дилера
+                      Связаться с дилером
                     </a>
                     <ShareButton />
                   </div>
