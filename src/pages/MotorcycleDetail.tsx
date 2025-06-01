@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Header from "@/components/Header";
+import ShareButton from "@/components/ShareButton";
 import Icon from "@/components/ui/icon";
 
 const MotorcycleDetail = () => {
