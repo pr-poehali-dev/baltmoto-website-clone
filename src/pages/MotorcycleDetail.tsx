@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import Header from "@/components/Header";
 import Icon from "@/components/ui/icon";
 
@@ -144,12 +145,15 @@ const MotorcycleDetail = () => {
                   <p className="text-blue-700 mb-4">
                     Цена может варьироваться у дилеров
                   </p>
-                  <a
-                    href="tel:+79534271121"
-                    className="block w-full bg-orange-500 text-white py-3 px-6 rounded-md hover:bg-orange-600 transition-colors font-medium text-center"
-                  >
-                    Связаться с дилером
-                  </a>
+                  <div className="flex gap-3">
+                    <a
+                      href="tel:+79534271121"
+                      className="flex-1 bg-orange-500 text-white py-3 px-6 rounded-md hover:bg-orange-600 transition-colors font-medium text-center"
+                    >
+                      Связаться с дилером
+                    </a>
+                    <ShareButton />
+                  </div>
                 </div>
               </div>
             </div>
