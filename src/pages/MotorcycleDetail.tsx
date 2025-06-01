@@ -151,7 +151,7 @@ const MotorcycleDetail = () => {
                       href="tel:+79534271121"
                       className="flex-1 bg-orange-500 text-white py-3 px-6 rounded-md hover:bg-orange-600 transition-colors font-medium text-center"
                     >
-                      Связаться с дилером
+                      Связаться с килером
                     </a>
                     <ShareButton />
                   </div>
