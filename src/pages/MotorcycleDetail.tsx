@@ -132,7 +132,7 @@ const MotorcycleDetail = () => {
                       <span className="font-medium text-gray-900">
                         Макс. скорость
                       </span>
-                      <span className="text-gray-700">~180 км/ч</span>
+                      <span className="text-gray-700">~230 км/ч</span>
                     </div>
                   </div>
                 </div>
