@@ -19,21 +19,21 @@ const MotorcycleDetail = () => {
         </button>
 
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div className="relative h-96">
+          <div className="relative h-64">
             <img
               src="https://cdn.poehali.dev/files/f385c341-4e7e-47ae-b7a0-54b06b393ede.jpg"
               alt="Husqvarna SM 701"
               className="w-full h-full object-cover"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
-              <h1 className="text-4xl font-bold text-white mb-2">
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
+              <h1 className="text-2xl font-bold text-white mb-1">
                 Husqvarna SM 701
               </h1>
-              <p className="text-xl text-gray-200">Супермото мотоцикл</p>
+              <p className="text-lg text-gray-200">Супермото мотоцикл</p>
             </div>
           </div>
 
-          <div className="p-8">
+          <div className="p-6">
             <div className="grid lg:grid-cols-2 gap-8">
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
